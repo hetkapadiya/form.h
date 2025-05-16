@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regestraion Form</title>
+    <link rel="stylesheet" href="design.css">
+  </head>
+  <body>
+    <h1>HSSC Science Stream Admission Form</h1>
+    <form action="">
+      First Name:
+      <input
+        type="text"
+        placeholder="Enter your First name"
+        name="First name"
+      />
+      <br /><br />
+      Second Name:
+      <input
+        type="text"
+        placeholder="Enter your Middle name"
+        name="Second Name"
+      />
+      <br /><br />
+      Last Name:
+      <input type="text" placeholder="Enter your Last name" name="Last Name" />
+      <br /><br />
+      Mobile No.:
+      <input
+        type="number"
+        name="number"
+        id="number"
+        placeholder="Enter your mobile number"
+      />
+      <br /><br />
+      Email Address:
+      <input
+        type="email"
+        placeholder="Enter your Email Address"
+        name="Email Address"
+      />
+      <br /><br />
+      Password:
+      <input
+        type="password"
+        name="Password"
+        placeholder="Enter your Password"
+      />
+      <br /><br />
+      Birthdate: <input type="date" name="date" id="date" /> <br /><br />
+      Gender:
+      <label for="male">
+        Male<input value="Male" type="radio" name="gender" id="male" />
+      </label>
+      <label for="female">
+        Female<input value="Female" type="radio" name="gender" id="female" />
+      </label>
+      <br /><br />
+      Enter SSC marks:
+      <input
+        type="number"
+        name="marks"
+        id="marks"
+        placeholder="Enter marks out of 600"
+      />
+      <br /><br />
+      Upload SSC Marksheet: <input type="file" name="sheet" id="sheet">
+      <br><br>
+      Select Subjects:
+      <label for="math">
+        Math<input type="checkbox" value="Math" name="subjects" id="math" />
+      </label>
+      <label for="biology">
+        Biology<input
+          type="checkbox"
+          value="Biology"
+          name="subjects"
+          id="biology"
+        />
+      </label>
+      <br /><br />
+      Address: <br /><textarea
+        name="address"
+        id="address"
+        placeholder="Enter your Address"
+      ></textarea>
+      <br /><br />
+
+      City:
+      <select name="city" id="city">
+        <option value="Surat">Surat</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Vadodra">Vadodra</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+      </select>
+      <br /><br />
+
+      Submit: <input type="submit" value="Submit" /> <br /><br />
+      Reset: <input type="reset" name="reset" id="reset" />
+    </form>
+  </body>
+</html>
